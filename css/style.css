@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+    color: #fff;
+}
 header{
     width: 300px;
     position: fixed;
@@ -100,7 +104,7 @@ height: 100%;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #45505b;
+    color: #fff;
 }
 .title::before{
     content: "";
@@ -128,7 +132,7 @@ height: 100%;
 #job-title{
     font-weight: 700;
     font-size: 26px;
-    color: #728394;
+    color: #fff;
 }
 #about-job{
     font-style: italic;
@@ -156,7 +160,7 @@ ul#info li i{
    
     position: relative;
     text-align: center;
-    background: #fff;
+    background:black;
 }
 #facts .content > div i{
     position: absolute;
@@ -177,7 +181,7 @@ ul#info li i{
     font-size: 36px;
     display: block;
     font-weight: 600;
-    color: #011426;
+    color: #fff;
     margin: 0;
 }
 #skills{
@@ -193,7 +197,7 @@ ul#info li i{
     display: block;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    color: #45505b;
+    color: #fff;
 
 }
 .skill-title{
@@ -209,7 +213,7 @@ ul#info li i{
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #45505b;
+    color: #fff;
 }
 .resume-item-content{
     padding: 0 0 20px 20px;
@@ -247,6 +251,7 @@ ul#info li i{
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
+    color: black;
 }
 .hq{
     font-style: italic;
@@ -276,13 +281,13 @@ ul#info li i{
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #45505b;
+    color: #fff;
 }
 .info-bot p{
     padding: 0 0 0 60px;
     margin-bottom: 0;
     font-size: 14px;
-    color: #728394;
+    color: #fff;
 }
 #contact-email,#phone{
     margin-top: 40px;
@@ -309,8 +314,8 @@ ul#info li i{
     border-radius: 50px;
 }
 footer{
-    background: #f7f8f9;
-    color: #45505b;
+    background: #071214;
+    color: #fff;
     font-size: 14px;
     text-align: center;
     padding: 30px 0;
@@ -322,6 +327,7 @@ footer h3{
     font-family: "Poppins", sans-serif;
     padding: 0;
     margin: 0 0 15px 0;
+    text-transform: capitalize; 
 }
 footer .social-link{
     margin-bottom: 40px;

@@ -48,6 +48,10 @@ window.onload = function() {
         else
         $('header').animate({left:'-300px'});
     });
+    $('#navbar ul li a').click(function(){
+        $('header').animate({left:'-300px'});
+        $('.mobile-nav').toggleClass('bi-x bi-list');
+    });
 
 //---------typewriter-----------------
     var elements = document.getElementsByClassName('typewrite');
